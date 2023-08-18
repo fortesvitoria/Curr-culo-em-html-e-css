@@ -4,15 +4,36 @@
     --amarelo: #FCCC70;
     --azul-escuro: #2b2d42;
 
-    --fonte-principal:  'Arvo', serif;
-    --fonte-secundaria: 'Mulish', sans-serif;
+    --fonte-principal: 'Outfit', sans-serif;
+    --fonte-secundaria: 'Zilla Slab', serif;
+
+}
+
+hr {
+    width: 40%;
+    border-color: var(--azul-escuro);
+}
+
+ul {
+    padding-right: 1.5em;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    padding-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-escuro);
 }
 
 .principal {
     color: var(--azul-escuro);
     font-family: var(--fonte-secundaria);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
 }
@@ -20,31 +41,45 @@
 .titulo {
     background-color: var(--amarelo);
     font-family: var(--fonte-principal);
-    font-weight: 800;
-    text-align: center;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 22px;
-    padding: 0.4em;
-}
-
-.sub-titulo {
-    text-align: center;
+    font-size: 25px;
+    padding: 0.3em 0.9em;
+    display: inline-block;
 }
 
 .pessoal {
-    width: 20%;
+    width: 25%;
     background-color: var(--lilas);
 }
 
-.cacebalho {
+.sub-titulo .pessoal{
+    text-align: center;
+    margin: 0 0 1em 0;
 }
+
+.cabecalho {
+    text-align: center;
+}
+
 .img-perfil {
-    width: 12em;
+    width: 13.5em;
     border-radius: 100%;
+    margin-top: 1.2em;
+
+}
+
+.icone {
+    padding: 0 0.4em 0.5em 0;
 }
 
 .profissional {
     width: 70%;
     background-color: var(--off-white);
+    padding: 0 1.2em;
 }
 
+.sub-titulo .profissional{
+    text-align: start;
+    margin: 0 0 1em 0;
+}
