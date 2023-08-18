@@ -131,3 +131,28 @@ li {
 }
     
 }
+
+/* versão telas até 600 */
+@media screen and (max-width: 600px) {
+    /* estilização base */
+    body {
+        margin: 0;
+    }
+    ul {
+        padding: 0.5em 0.5em 0.5em 0;
+        margin: 0.5em;
+    }
+    .principal {
+        display: block;
+    }
+    /* setor pessoal */
+   .pessoal {
+    width: 100%;
+}
+
+/* setor profissional */
+.profissional {
+    width: 100%;
+}
+    
+}
