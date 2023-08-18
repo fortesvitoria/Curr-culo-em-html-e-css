@@ -1,3 +1,4 @@
+/* versão telas emaiores que 1200 */
 /* variáveis */
 :root {
     --lilas: #ADACDA;
@@ -107,4 +108,26 @@ li {
 .texto-secundario{
     font-weight: 500;
     font-size: 16px;
+}
+
+/* versão telas entre 600 e 1200 */
+@media screen and (max-width: 1200px) {
+    /* estilização base */
+    body {
+        margin: 0;
+    }
+    ul {
+        padding: 0.5em 0.5em 0.5em 0;
+        margin: 0.5em;
+    }
+    /* setor pessoal */
+   .pessoal {
+    min-width: 40%;
+}
+
+/* setor profissional */
+.profissional {
+    width: 60%;
+}
+    
 }
